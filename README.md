@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TuneBox Security Simulator
 
-# Run and deploy your AI Studio app
+TuneBox Simulator es un entorno web interactivo diseñado para emular la integridad de controles de seguridad paramétricos (RBAC, DAC y MAC) dentro de un entorno aislado de la industria musical.
 
-This contains everything you need to run your app locally.
+> Para conocer a fondo la filosofía lógica del simulador, cómo auditar permisos cruzados o cómo operar las diferentes identidades corporativas, consulte el **`MANUAL_COMPLETO_Y_GRAFICO_TUNEBOX.pdf`** adjunto en este repositorio.
 
-View your app in AI Studio: https://ai.studio/apps/66c51edd-00f5-49ba-affc-f939d8934c93
+---
 
-## Run Locally
+## 🛠 Instalación y Despliegue Local
 
-**Prerequisites:**  Node.js
+Siga los siguientes pasos para ejecutar esta plataforma en su computador:
 
+### 1. Pre-requisitos
+Asegúrese de tener instalado el entorno de ejecución de JavaScript en su sistema:
+- **Node.js** (Versión 18 o superior).
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 2. Arranque del Entorno
+Abra su consola de comandos (Terminal o PowerShell) en la carpeta principal del proyecto y ejecute los siguientes dos comandos:
+
+**Descargar librerías requeridas:**
+```bash
+npm install
+```
+
+**Encender el servidor interno interactivo:**
+```bash
+npm run dev -- --open
+```
+
+Este último comando desplegará exitosamente la interfaz del simulador en su navegador por defecto (generalmente bajo el enlace `http://localhost:5173`).
+
+---
+
+*Proyecto diseñado bajo estrictas políticas de control y aislamiento de datos.*
