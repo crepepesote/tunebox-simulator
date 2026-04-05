@@ -31,4 +31,4 @@ Este último comando desplegará exitosamente la interfaz del simulador en su na
 
 ---
 
-*Proyecto diseñado bajo estrictas políticas de control y aislamiento de datos.*
+
